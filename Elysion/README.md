@@ -1,5 +1,6 @@
 Elysion
 ====
+[![CircleCI](https://img.shields.io/circleci/build/github/kagamikarasu/Napol-on?token=01215f8c89a725fc3e0c49f27ae69998f0396639)](https://circleci.com/gh/kagamikarasu/Napol-on/tree/master)
 
 ## Description
 GoLang Echo Framework sample  

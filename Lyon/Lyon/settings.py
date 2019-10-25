@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'api',
+    'shop',
     'rest_framework',
     'django_filters',
 ]
@@ -70,7 +71,7 @@ if os.getenv('GAE_ENV', '').startswith('standard'):
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'napol',
             'USER': 'napol',
-            'PASSWORD': 'hMs77u6s8Hiv',
+            'PASSWORD': 'napol',
             'HOST': '/cloudsql/napoltest-kagamikarasu:asia-northeast1:mysql-napol-test'
         }
     }
@@ -82,8 +83,8 @@ else:
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'napol',
             'USER': 'napol',
-            'PASSWORD': 'hMs77u6s8Hiv',
-            'HOST': '127.0.0.1'
+            'PASSWORD': 'napol',
+            'HOST': 'local-mysql-database'
         }
     }
 

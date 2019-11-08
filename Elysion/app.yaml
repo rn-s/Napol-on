@@ -1,6 +1,0 @@
-runtime: go112
-
-automatic_scaling:
-    min_instances: 0
-
-

@@ -1,0 +1,7 @@
+ppretty
+requests
+django-filter
+Django>=2.2.6
+djangorestframework
+gunicorn
+mysqlclient
